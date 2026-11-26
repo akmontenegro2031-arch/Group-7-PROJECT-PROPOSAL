@@ -1,0 +1,193 @@
+﻿Project Proposal Group 7
+Project Milestone 1: Develop the First Draft of the Project Proposal
+1. Project Title
+Project Name: Aidfinity
+
+________________
+2. Brief Description
+
+
+Description: 
+Our project’s application is done through a donation system such as donating clothes, food, or money to the people in need. and the excess resources are redistributed to a community pantry or shelter to help aid community members in transition. Our program strives to help empower mutual aid by enabling people to make donations of things like clothes, food, and daily essentials to local community shelters. Users are able to access the program anytime and anywhere, thus making donations easier and more efficient. Additionally, our program is completely optional and provides calculations of how much they want to donate to, donations for instance direct-to-individual giving or to do facility-based distribution.
+
+
+3. Problem Statement:
+
+
+Problem Identified: 
+Our project aims to address the lack of access to basic everyday necessities, such as food, clothing, and daily essentials, among individuals and families in need. Many communities experience poverty or difficulties in obtaining these resources. However, the lack of an accessible and organized donation system can make it difficult to connect donors with those who need assistance. This is why we are proposing Aidfinity, to make donating easier, more accessible, and more efficient by providing a platform where people can contribute resources according to their willingness and capacity. Donations can be distributed directly to individuals or households, or through community pantries and shelters. In addition, excess resources can be redistributed to other organizations or communities that need them. Through this system, our project hopes to encourage mutual aid, reduce resource waste, and strengthen community support by making essential resources more accessible to everyone.
+
+
+Target Users / Beneficiaries:
+* Our target users/beneficiaries are individuals with limited resources and community members in need.
+
+
+4. Outline of Features
+
+
+Feature
+	Description
+	Persistent Data Used
+	Log a Donation
+	The users select what they want to donate (clothes, money, food, or daily essentials.
+	* Donation ID 
+* Donor name (optional)
+*  Donation category(Food, clothes, money, and daily essentials)
+* Item quantity
+* Date recorded
+	Calculating the donations 
+	Helps aid the users on calculating the total value of how much they plan to donate.
+	* Cash amount
+* Saved donation quantities 
+* donation categories
+* Calculated total donations value
+	Select distribution(donation) method
+	Users are to choose between direct-to-individual giving or sending the items through a community pantry or shelter.
+ 
+
+
+	* Donation ID
+* Selected distribution method
+* Recipient ID or Shelter ID(if applicable)
+
+
+	Track, monitor, and view Donations 
+	 The program provides a dashboard or log where users can review their past donations and contributions by category, as well as monitor current delivery or status of donated their goods. 
+	* Donation status(In transit, received, and etc.)
+* Date logged & date fulfilled
+* Donation records linked to user id.
+
+
+	
+
+5. Description of Data to be Collected and Stored as Persistent Data (Optional)
+
+
+Data Field
+	Description
+	Purpose/Use
+	Donation ID 
+
+
+	A unique identification number assigned to every donation record.
+
+
+	To identify and distinguish each donation. 
+	Donor Name
+	The name of the user making the donation (optional)
+	To identify and keep track of donors. 
+	Donation category 
+	The type of donation chosen by the user, such as clothes, food, money, or daily essential
+	To organize donations according to their categories. 
+	Cash amount
+	The number or amount of money being donated
+	To know the value or amount of money being donated. 
+	Item quantity
+	The number or amount of items the user plans to donate
+	To identify the number or amount of items the user plans to donate. 
+	Date recorded
+	The date when the donation is entered into the system
+	To record the date when the donation is entered into the system. 
+	Distribution method 
+	The selected method of donation distribution, either direct-to-individual giving or through a community pantry or shelter  
+	 The selected method of donation distribution, either direct-to-individual giving or through a community pantry or shelter. 
+	Recipient ID/ Shelter ID
+	A unique identification number assigned to the recipient or receiving organization, if applicable. 
+	To identify and keep track of the intended recipient or receiving facility.
+	Donation status 
+	The current status of the donation, such as Pending, In Transit, Received, or Fulfilled 
+	To monitor the progress of donations and determine whether they have been successfully distributed.
+	Date fulfilled 
+	The date when the donation successfully reaches its intended recipient. 
+	To keep track of when donations are successfully distributed and completed.
+	User ID 
+	A unique identification number assigned to each registered user. 
+	To identify registered users and associate their donation records with their respective accounts.
+	
+
+Example:
+Data Field
+	Description
+	Purpose/Use
+	Donation ID
+	DON-00001
+	To identify and distinguish each donation. 
+	Donor Name
+	Chloe
+	To identify and keep track of donors. 
+	Donation category 
+	Food
+	To organize donations according to their categories. 
+	Cash amount
+	₱500 
+	To know the value or amount of money being donated. 
+	Item quantity
+	20 canned foods
+	To identify the number or amount of items the user plans to donate. 
+	Date recorded
+	11 - 15 - 2026
+	To record the date when the donation is entered into the system. 
+	Distribution method 
+	Facility-based distribution
+	To identify the selected method of donation distribution, either direct-to-individual giving or through a community pantry or shelter. 
+	Recipient ID/ Shelter ID
+	REC-00015
+	To identify and keep track of the intended recipient or receiving facility.
+	Donation status 
+	Pending
+	To monitor the progress of donations and determine whether they have been successfully distributed.
+	Date fulfilled 
+	11/25/2026
+	To keep track of when donations are successfully distributed and completed.
+	User ID
+	USER-00011
+	To identify registered users and associate their donation records with their respective accounts.
+	
+
+6. Sample Wireframe of the Application
+
+
+Wireframe / Flowchart Area:
+  
+
+
+
+
+
+
+
+
+
+Screen Description:
+* Log a donation screen: This screen allows users to record their donations by entering the necessary information, such as the donor’s name, donation category, item description, and quantity or monetary amount.
+* Calculate donations screen: This screen displays the calculated totals of donations received.
+* Select distribution method screen: This screen allows users to select how their donations will be distributed.
+* Track and view donations screen: This screen allows users to view previously recorded donations and monitor their distribution progress.
+________________
+
+
+7. Task Schedule and Assigned Team Members
+Task/Activity
+	Assigned Member(s)
+	Target Date
+	Status
+	Project planning
+	Dumago, Montenegro
+	11/15/26
+	Done
+	Feature development
+	Montenegro, Villegas
+	11/19/26
+	Done
+	Data design
+	Montenegro, Dumago
+	11/20/26
+	Done
+	Wireframe creation
+	Dumago, Montenegro
+	11/17/26
+	Done
+	Documentation
+	Montenegro, Dumago
+	11/17/26
+	Done
